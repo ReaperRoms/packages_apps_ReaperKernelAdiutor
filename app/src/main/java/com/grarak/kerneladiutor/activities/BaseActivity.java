@@ -47,26 +47,26 @@ public class BaseActivity extends AppCompatActivity {
 
     static {
         sAccentColors.put("red_accent", R.style.Theme_Red);
-        sAccentColors.put("pink_accent", R.style.Theme_Pink);
-        sAccentColors.put("purple_accent", R.style.Theme_Purple);
+        sAccentColors.put("mint_accent", R.style.Theme_Mint);
+        sAccentColors.put("grape_accent", R.style.Theme_Grape);
         sAccentColors.put("blue_accent", R.style.Theme_Blue);
-        sAccentColors.put("green_accent", R.style.Theme_Green);
+        sAccentColors.put("lime_accent", R.style.Theme_Lime);
         sAccentColors.put("orange_accent", R.style.Theme_Orange);
-        sAccentColors.put("brown_accent", R.style.Theme_Brown);
+        sAccentColors.put("burnt_accent", R.style.Theme_Burnt);
         sAccentColors.put("grey_accent", R.style.Theme_Grey);
-        sAccentColors.put("blue_grey_accent", R.style.Theme_BlueGrey);
-        sAccentColors.put("teal_accent", R.style.Theme_Teal);
+        sAccentColors.put("yellow_accent", R.style.Theme_Yellow);
+        sAccentColors.put("crystal_accent", R.style.Theme_Crystal);
 
         sAccentDarkColors.put("red_accent", R.style.Theme_Red_Dark);
-        sAccentDarkColors.put("pink_accent", R.style.Theme_Pink_Dark);
-        sAccentDarkColors.put("purple_accent", R.style.Theme_Purple_Dark);
+        sAccentDarkColors.put("mint_accent", R.style.Theme_Mint_Dark);
+        sAccentDarkColors.put("grape_accent", R.style.Theme_Grape_Dark);
         sAccentDarkColors.put("blue_accent", R.style.Theme_Blue_Dark);
-        sAccentDarkColors.put("green_accent", R.style.Theme_Green_Dark);
+        sAccentDarkColors.put("lime_accent", R.style.Theme_Lime_Dark);
         sAccentDarkColors.put("orange_accent", R.style.Theme_Orange_Dark);
-        sAccentDarkColors.put("brown_accent", R.style.Theme_Brown_Dark);
+        sAccentDarkColors.put("burnt_accent", R.style.Theme_Burnt_Dark);
         sAccentDarkColors.put("grey_accent", R.style.Theme_Grey_Dark);
-        sAccentDarkColors.put("blue_grey_accent", R.style.Theme_BlueGrey_Dark);
-        sAccentDarkColors.put("teal_accent", R.style.Theme_Teal_Dark);
+        sAccentDarkColors.put("yellow_accent", R.style.Theme_Yellow_Dark);
+        sAccentDarkColors.put("crystal_accent", R.style.Theme_Crystal_Dark);
     }
 
     @Override
@@ -74,7 +74,7 @@ public class BaseActivity extends AppCompatActivity {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         Utils.DARK_THEME = Prefs.getBoolean("darktheme", false, this);
         int theme;
-        String accent = Prefs.getString("accent_color", "pink_accent", this);
+        String accent = Prefs.getString("accent_color", "grey_accent", this);
         if (Utils.DARK_THEME) {
             theme = sAccentDarkColors.get(accent);
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
