@@ -39,15 +39,15 @@ public class BorderCircleView extends FrameLayout {
 
     static {
         sAccentColors.put(R.color.red_accent, "red_accent");
-        sAccentColors.put(R.color.pink_accent, "pink_accent");
-        sAccentColors.put(R.color.purple_accent, "purple_accent");
+        sAccentColors.put(R.color.mint_accent, "mint_accent");
+        sAccentColors.put(R.color.grape_accent, "grape_accent");
         sAccentColors.put(R.color.blue_accent, "blue_accent");
-        sAccentColors.put(R.color.green_accent, "green_accent");
+        sAccentColors.put(R.color.lime_accent, "lime_accent");
         sAccentColors.put(R.color.orange_accent, "orange_accent");
-        sAccentColors.put(R.color.brown_accent, "brown_accent");
+        sAccentColors.put(R.color.burnt_accent, "burnt_accent");
         sAccentColors.put(R.color.grey_accent, "grey_accent");
-        sAccentColors.put(R.color.blue_grey_accent, "blue_grey_accent");
-        sAccentColors.put(R.color.teal_accent, "teal_accent");
+        sAccentColors.put(R.color.yellow_accent, "yellow_accent");
+        sAccentColors.put(R.color.crystal_accent, "crystal_accent");
     }
 
     private final Drawable mCheck;
