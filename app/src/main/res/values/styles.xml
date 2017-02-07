@@ -28,9 +28,9 @@
         <item name="native_express_id">@string/native_express_id_dark</item>
     </style>
 
-    <style name="AppThemeParent" parent="AppTheme" />
+    <style name="AppThemeParent" parent="AppThemeDark" />
 
-    <style name="AppThemeParentDark" parent="AppThemeDark" />
+    <style name="AppThemeParentDark" parent="AppTheme" />
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
