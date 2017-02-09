@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">Kernel Adiutor</string>
+    <string name="app_name">Reaper Kernel Adiutor</string>
 
-    <string name="checking_info">Checking info…</string>
-    <string name="checking_root">Checking root access</string>
-    <string name="searching_busybox">Searching for busybox</string>
-    <string name="collecting_info">Collecting info</string>
+    <string name="checking_info">Reaper Kernel Adiutor</string>
+    <string name="checking_root">Checking vitals</string>
+    <string name="searching_busybox">No pulse detected</string>
+    <string name="collecting_info">#deathbecomesus</string>
     <string name="no_root">No root</string>
     <string name="no_busybox">No busybox</string>
     <string name="open">Open %s</string>
@@ -34,9 +34,9 @@
     <string name="open_ad_anyway">Open ad anyway</string>
 
     <string name="apply_on_boot">Apply on boot</string>
-    <string name="apply_on_boot_text">Applying settings in %d seconds.</string>
-    <string name="apply_on_boot_complete">Applying settings completed.</string>
-    <string name="apply_on_boot_canceled">Applying settings canceled.</string>
+    <string name="apply_on_boot_text">Resurrecting your settings in %d...</string>
+    <string name="apply_on_boot_complete">Back from the dead.</string>
+    <string name="apply_on_boot_canceled">R.I.P.</string>
 
     <string name="not_in_range">Not in range</string>
     <string name="options">Options</string>
@@ -802,10 +802,10 @@
     <string name="fahrenheit_summary">Use fahrenheit to measure temperature.</string>
     <string name="force_english">Force displaying english language</string>
     <string name="user_interface">User interface</string>
-    <string name="dark_theme">Dark theme</string>
-    <string name="material_icon">Material icon</string>
+    <string name="dark_theme">#WhiteUI</string>
+    <string name="material_icon">Alternate icon</string>
     <string name="banner_resizer">Banner resizer</string>
-    <string name="hide_banner">Hide banner</string>
+    <string name="hide_banner">Hide CPU graph</string>
     <string name="force_cards">Force cards</string>
     <string name="force_cards_summary">Use cards for items if possible.</string>
     <string name="accent_color">Accent Color</string>
@@ -850,7 +850,7 @@
     <string name="sections">Sections</string>
 
     <!-- About -->
-    <string name="about_me">Hi, I\'m Willi Ye aka Grarak, a 19 year old student living in Vienna. I\'ve been developing on Android for quite a long time. Beside Kernel Adiutor I\'m also maintaining CyanogenMod for few devices and working on ParanoidAndroid. So please understand if I don\'t find the time to update this application.</string>
+    <string name="about_me">Hello, my name is Adam Willis (0ctobot), Dysfunctional ROMs team member and device maintainer for the OnePlus 2. This project is a fork of the official Kernel Adiutor app developed by Willi Ye (Grarak), which has been modified by yours truly to compliment ReaperOs. #deathbecomesus</string>
     <string name="libraries_used">Libraries used</string>
 
     <!-- Contributors -->

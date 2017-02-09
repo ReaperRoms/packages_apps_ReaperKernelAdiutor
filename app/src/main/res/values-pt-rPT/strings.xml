@@ -3,10 +3,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="app_name">Kernel Adiutor
 </string>
-  <string name="checking_info">A verificar a informação&#8230;</string>
-  <string name="checking_root">A verificar acesso de root</string>
-  <string name="searching_busybox">A procurar por busybox</string>
-  <string name="collecting_info">A obter a informação</string>
   <string name="no_root">Sem root</string>
   <string name="no_busybox">Sem busybox</string>
   <string name="open">Abrir %s</string>
@@ -591,7 +587,6 @@
   <!-- Settings -->
   <string name="open_settings">Abrir configurações</string>
   <string name="fahrenheit_title">Fahrenheit</string>
-  <string name="dark_theme">Tema escuro</string>
   <string name="section_icons">Ícones de secção</string>
   <string name="instant">Instantâneo</string>
   <string name="five_sec">5 Segundos</string>

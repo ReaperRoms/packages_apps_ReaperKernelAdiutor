@@ -120,7 +120,6 @@
   <!-- Init.d -->
   <!-- On Boot -->
   <!-- Settings -->
-  <string name="dark_theme">Tume teema</string>
   <string name="logcat">Logcat</string>
   <string name="last_kmsg">Viimane Tuuma sõnum</string>
   <!-- About -->
